@@ -29,7 +29,7 @@ end
 # Raises "unused method arguments detected"
 def some_method(_bar)
   puts 'Hello'
-  if 1 > x and 3 < 2
+  if x < 1 and 3 < 2
   end
 end
 
