@@ -29,7 +29,8 @@ end
 # Raises "unused method arguments detected"
 def some_method(_bar)
   puts 'Hello'
-  puts :what if 1 > x and 3 < 2
+  if 1 > x and 3 < 2
+  end
 end
 
 # Raises "unreachable code detected"
