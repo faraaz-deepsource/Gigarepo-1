@@ -30,6 +30,7 @@ end
 # Raises "unused method arguments detected"
 def some_method(bar)
   puts 'Hello'
+  puts 1 > x and 3 < 2
 end
 
 # Raises "unreachable code detected"
