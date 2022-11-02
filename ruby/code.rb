@@ -29,6 +29,8 @@ end
 # Raises "unused method arguments detected"
 def some_method(_bar)
   puts 'Hello'
+  if x < 1 and 3 < 2
+  end
 end
 
 # Raises "unreachable code detected"
