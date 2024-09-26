@@ -47,6 +47,10 @@ elsif x == 1
   do_something_else
 end
 
+class Some_Class
+  
+end
+  
 # Raises "Deprecated way of initializing OpenSSL::Cipher and OpenSSL::Digest"
 OpenSSL::Cipher.new('aes-128-gcm')
 
